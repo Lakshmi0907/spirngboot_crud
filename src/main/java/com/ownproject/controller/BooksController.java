@@ -1,4 +1,4 @@
-package com.javatpoint.controller;
+package com.ownproject.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.javatpoint.model.Books;
-import com.javatpoint.service.BooksService;
+
+import com.ownproject.model.Books;
+import com.ownproject.service.BooksService;
 
 //mark class as Controller
 @RestController
